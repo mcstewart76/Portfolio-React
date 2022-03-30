@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mcstewart76/Portfolio-React/issues"
   },
-  "homepage": "https://github.com/mcstewart76/Portfolio-React#readme"
+  "homepage": "https://github.com/mcstewart76/Portfolio-React#readme",
+  "dependencies": {
+    "react": "^18.0.0"
+  }
 }
