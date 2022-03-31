@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mcstewart76/Portfolio-React#readme",
   "dependencies": {
+    "bootstrap": "^5.1.3",
     "react": "^18.0.0"
+    
   }
 }
