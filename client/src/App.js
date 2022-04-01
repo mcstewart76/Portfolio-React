@@ -2,10 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
  import './App.css';
 import Navbar from './components/Navbar'
 
-function App() {
+function Navvy() {
   return (
     <Navbar/>  
   );
 }
 
-export default App;
+export default Navvy;

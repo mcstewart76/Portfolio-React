@@ -5,3 +5,50 @@
 .navvy{
     min-width: 400px; background-color: #161925;
 }
+.resumeCard, .backgroundWhite
+{background-color: #CCDBDC ;}
+
+.box-shadow-dreamy {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+}
+
+.githubImg{
+    border: 5px; max-width: 100%; height: auto; 
+}
+.bg-blue
+{background-color: #5D737E;}
+.bg-darkblue{
+    background-color: #1B4965;
+}
+.bg-grey {
+    background-color: #C7CEDB;
+}
+.imgShrink{
+    height: auto;
+    max-width: 400px;
+    
+}
+.cardText{
+    color: #1B4965;
+}
+.cardColor{
+    background-color: #E0D3DE;
+}
+.buttonWorks{
+    background: #1B4965;
+    border: #1B4965;
+
+}
+.buttonWorks:hover{
+    background: #1B4965;
+    border: #1B4965;
+    
+}
+.buttonText{
+    color: #E0D3DE;
+}
