@@ -4,6 +4,7 @@ import Navvy from './App';
 import About from './components/pages/About';
 import Works from './components/pages/Works';
 import Resume from './components/pages/Resume';
+import Footer from './components/Footer'
 import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -30,6 +31,7 @@ ReactDOM.render(
       />
       
     </Routes>
+    <Footer />
   </BrowserRouter>,
   document.getElementById('root')
 );
