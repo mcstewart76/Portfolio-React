@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 import logoImage from "./images/CS.png"
 export default function Navbar() {
@@ -15,11 +16,11 @@ export default function Navbar() {
         </div>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto pe-4">
-            <a className="nav-item nav-link" href="/About">About</a>
-            <a className="nav-item nav-link" href="/Works">My Works</a>
-            <a className="nav-item nav-link" href="/Resume" >Resume</a>
+            <Link className="nav-item nav-link" to="/About">About</Link>
+            <Link className="nav-item nav-link" to="/Works">My Works</Link>
+            <Link className="nav-item nav-link" to="/Resume" >Resume</Link>
             <a className="nav-item nav-link" href="https://github.com/mcstewart76" >GitHub</a>
-            <a className="nav-item nav-link" href="/Contact">Contact</a>
+            <Link className="nav-item nav-link" to="/Contact">Contact</Link>
 
            
             </div>
