@@ -15,11 +15,11 @@ export default function Navbar() {
         </div>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto pe-4">
-            <a className="nav-item nav-link" href="/about">About</a>
-            <a className="nav-item nav-link" href="/works">My Works</a>
-            <a className="nav-item nav-link" href="/resume" >Resume</a>
+            <a className="nav-item nav-link" href="/About">About</a>
+            <a className="nav-item nav-link" href="/Works">My Works</a>
+            <a className="nav-item nav-link" href="/Resume" >Resume</a>
             <a className="nav-item nav-link" href="https://github.com/mcstewart76" >GitHub</a>
-            <a className="nav-item nav-link" href="https://www.linkedin.com/in/chris-stewart-79b283204/">LinkedIn</a>
+            <a className="nav-item nav-link" href="/Contact">Contact</a>
 
            
             </div>
