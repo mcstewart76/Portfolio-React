@@ -7,11 +7,11 @@ import Resume from './components/pages/Resume';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer'
 import './index.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <Router>
     <Navvy />
     <Routes>
     <Route
@@ -36,7 +36,7 @@ ReactDOM.render(
       />
     </Routes>
     <Footer />
-  </BrowserRouter>,
+  </Router>,
   document.getElementById('root')
 );
 
