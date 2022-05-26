@@ -16,7 +16,8 @@ export default function Resume() {
                     <a className="btn btn-outline-secondary me-1" href="../pdf/ChrisStewartResume.pdf" download
                      onClick={() => downloaded("Resume Downloaded!")}>
                          Download Resume</a>
-                    <a className="btn btn-outline-secondary ms-1" href="https://github.com/mcstewart76">GitHub Profile</a>
+                    <a className="btn btn-outline-secondary mx-1" href="https://github.com/mcstewart76">GitHub Profile</a>
+                    <a className="btn btn-outline-secondary ms-1" target="_blank" rel="noreferrer" href="https://raw.githubusercontent.com/mcstewart76/Portfolio-React/main/client/src/components/pdf/ChrisStewartResume.pdf">View Resume</a>
                 </div>
             </div>
         </div>

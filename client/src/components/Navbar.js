@@ -19,7 +19,7 @@ export default function Navbar() {
             <Link className="nav-item nav-link" to="/About">About</Link>
             <Link className="nav-item nav-link" to="/Works">My Works</Link>
             <Link className="nav-item nav-link" to="/Resume" >Resume</Link>
-            <a className="nav-item nav-link" target="_blank" href="https://github.com/mcstewart76" >GitHub</a>
+            <a className="nav-item nav-link" target="_blank" rel="noreferrer" href="https://github.com/mcstewart76" >GitHub</a>
             <Link className="nav-item nav-link" to="/Contact">Contact</Link>
 
            
