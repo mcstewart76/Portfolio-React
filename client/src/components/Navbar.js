@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
       <>
 <div>
-    <nav className="navbar navbar-expand-lg navbar-dark ps-4 pb-3 mt-3 mx-3 rounded navvy">
+    <nav className="navbar navbar-expand-lg navbar-dark px-2 pb-3 mt-3 mx-3 rounded navvy">
     <img className="logoImg" alt="Chris Stewart"src={logoImage} ></img>
-        <div className="pe-3">
+        <div className="pe-2">
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>

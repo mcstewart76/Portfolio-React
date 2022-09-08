@@ -6,14 +6,14 @@ import Button from 'react-bootstrap/Button';
 export default function Works() {
     return (
         <>
-            <div className="position-relative overflow-hidden p-3 p-md-5 m-md-3 bg-blue ">
-                <div className="container rounded bg-darkblue d-flex flex-wrap justify-content-evenly" >
+            <div className=" py-3 p-md-5 m-md-3 bg-blue ">
+                <div className="container rounded bg-darkblue d-flex flex-wrap justify-content-evenly py-2" >
                     {/* <div className=" my-4"> */}
 
                     <div className="d-flex justify-content-center">
 
-                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '25rem' }}>
-                            <Card.Img variant="top" className="rounded box-dreamy-shadow imgShrink" alt="Only Devs" src="https://user-images.githubusercontent.com/90533949/163664612-dc87eaac-aea2-4717-ad0f-e8b2a9b715cb.png" />
+                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '24rem'  }}>
+                            <Card.Img variant="top" className="rounded box-dreamy-shadow img-fluid" alt="Only Devs" src="https://user-images.githubusercontent.com/90533949/163664612-dc87eaac-aea2-4717-ad0f-e8b2a9b715cb.png" />
                             <Card.Body className="bg-grey pb-1 rounded">
                                 <Card.Title className=" h2 text-start ms-4" >OnlyDevs</Card.Title>
                                 <strong className="d-inline-block mb-1 cardText">React, Express, MongoDB, Node.js, Javascript, CSS</strong>
@@ -32,8 +32,8 @@ export default function Works() {
 
                     <div className="d-flex py-4 ">
 
-                        <Card className=" m-3  h-md-250 bg-grey rounded " style={{ width: '25rem' }}>
-                            <Card.Img variant="top" className="rounded box-dreamy-shadow imgShrink " alt="Buy and Generate NFT" src="https://user-images.githubusercontent.com/90533949/160325216-b959890f-259f-4bfb-8245-79bba2533b6d.png" />
+                        <Card className=" m-3  h-md-250 bg-grey rounded " style={{ width: '24rem' }}>
+                            <Card.Img variant="top" className="rounded box-dreamy-shadow img-fluid " alt="Buy and Generate NFT" src="https://user-images.githubusercontent.com/90533949/160325216-b959890f-259f-4bfb-8245-79bba2533b6d.png" />
                             <Card.Body className="bg-grey pb-3 rounded">
                                 <Card.Title className=" h3 text-start ms-4">BitFit</Card.Title>
                                 <strong className="d-inline-block mb-1 cardText">Node, Express, SQL, Handlebars, HTML, CSS </strong>
@@ -51,10 +51,10 @@ export default function Works() {
 
                     </div>
 
-                    <div className="d-flex justify-content-center">
+                    <div className="d-flex justify-content-center ">
 
-                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '25rem' }}>
-                            <Card.Img variant="top" className="rounded box-dreamy-shadow imgShrink" alt="Weather App" src="https://user-images.githubusercontent.com/90533949/160325473-448eba84-65ee-4741-acc8-70203292af51.png" />
+                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '24rem' }}>
+                            <Card.Img variant="top" className="rounded box-dreamy-shadow img-fluid" alt="Weather App" src="https://user-images.githubusercontent.com/90533949/160325473-448eba84-65ee-4741-acc8-70203292af51.png" />
                             <Card.Body className="bg-grey pb-1 rounded">
                                 <Card.Title className=" h2 text-start ms-4" >Git Homies</Card.Title>
                                 <strong className="d-inline-block mb-1 cardText">Javascript, RESTful Api, HTML, CSS</strong>
@@ -74,8 +74,8 @@ export default function Works() {
 
                     <div className="d-flex justify-content-center">
 
-                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '25rem' }}>
-                            <Card.Img variant="top" className="rounded box-dreamy-shadow imgShrink" alt="Note Taker App" src="https://user-images.githubusercontent.com/90533949/161200089-f8d33410-ff5d-47dd-822f-19de01579ee1.png" />
+                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '24rem' }}>
+                            <Card.Img variant="top" className="rounded box-dreamy-shadow img-fluid" alt="Note Taker App" src="https://user-images.githubusercontent.com/90533949/161200089-f8d33410-ff5d-47dd-822f-19de01579ee1.png" />
                             <Card.Body className="bg-grey pb-1 rounded">
                                 <Card.Title className=" h2 text-start ms-4" >Note Taker App</Card.Title>
                                 <strong className="d-inline-block mb-1 cardText">Javascript, HTML, CSS</strong>
@@ -93,8 +93,8 @@ export default function Works() {
                     </div>
                     <div className="d-flex justify-content-center">
 
-                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '25rem' }}>
-                            <Card.Img variant="top" className="rounded box-dreamy-shadow imgShrink" alt="Department Management App" src="https://user-images.githubusercontent.com/90533949/161198122-8d717142-d9aa-4f18-bbd8-423bad416e60.png" />
+                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '24rem'  }}>
+                            <Card.Img variant="top" className="rounded box-dreamy-shadow img-fluid" alt="Department Management App" src="https://user-images.githubusercontent.com/90533949/161198122-8d717142-d9aa-4f18-bbd8-423bad416e60.png" />
                             <Card.Body className="bg-grey pb-1 rounded">
                                 <Card.Title className=" h2 text-start ms-4" >Department Management</Card.Title>
                                 <strong className="d-inline-block mb-1 cardText">Node, SQL, Javascript, Sequelize</strong>
@@ -103,7 +103,7 @@ export default function Works() {
                                 </Card.Text>
                                 <div className="mb-3 mx-1 ">
                                     <Button variant="primary" target="_blank" className='buttonWorks buttonText mx-1' href="https://github.com/mcstewart76/DepartmentManagement/blob/master/README.md" >Continue reading!</Button>
-                                    <Button variant="primary" target="_blank" className='buttonWorks buttonText mx-1' href="https://www.youtube.com/watch?v=Yk1AVvq6HGA" >User Video</Button>
+                                    <Button variant="primary" target="_blank" className='buttonWorks buttonText mx-1' href="https://www.youtube.com/watch?v=Yk1AVvq6HGA" >User Video!</Button>
                                 </div>
                             </Card.Body>
                         </Card>
@@ -112,8 +112,8 @@ export default function Works() {
                     </div>
                     <div className="d-flex justify-content-center">
 
-                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '25rem' }}>
-                            <Card.Img variant="top" className="rounded box-dreamy-shadow imgShrink" alt="Weather App" src="https://user-images.githubusercontent.com/90533949/170295419-12424840-18ea-4c3c-a586-5065bcc5f702.png" />
+                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '24rem'  }}>
+                            <Card.Img variant="top" className="rounded box-dreamy-shadow img-fluid" alt="Weather App" src="https://user-images.githubusercontent.com/90533949/170295419-12424840-18ea-4c3c-a586-5065bcc5f702.png" />
                             <Card.Body className="bg-grey pb-1 rounded">
                                 <Card.Title className=" h2 text-start ms-4" >Weather Dashboard</Card.Title>
                                 <strong className="d-inline-block mb-1 cardText">Javascript, RESTful Api, HTML, CSS</strong>
@@ -131,8 +131,8 @@ export default function Works() {
                     </div>
                     <div className="d-flex justify-content-center">
 
-                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '25rem' }}>
-                            <Card.Img variant="top" className="rounded box-dreamy-shadow imgShrink" alt="DayPlanner" src="https://github.com/mcstewart76/DayPlanner/raw/main/assets/images/DayPlan.JPG" />
+                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '24rem'  }}>
+                            <Card.Img variant="top" className="rounded box-dreamy-shadow img-fluid" alt="DayPlanner" src="https://github.com/mcstewart76/DayPlanner/raw/main/assets/images/DayPlan.JPG" />
                             <Card.Body className="bg-grey pb-1 rounded">
                                 <Card.Title className=" h2 text-start ms-4" >Day Planner</Card.Title>
                                 <strong className="d-inline-block mb-1 cardText">Javascript, HTML, CSS</strong>
@@ -150,8 +150,8 @@ export default function Works() {
                     </div>
                     <div className="d-flex justify-content-center">
 
-                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '25rem' }}>
-                            <Card.Img variant="top" className="rounded box-dreamy-shadow imgShrink" alt="Team Profile" src="https://user-images.githubusercontent.com/90533949/161198698-fc9fcc8b-4aef-4a96-b6cc-af3de0777ec6.png" />
+                        <Card className=" m-3 h-md-250 bg-grey rounded" style={{ width: '24rem' }}>
+                            <Card.Img variant="top" className="rounded box-dreamy-shadow img-fluid" alt="Team Profile" src="https://user-images.githubusercontent.com/90533949/161198698-fc9fcc8b-4aef-4a96-b6cc-af3de0777ec6.png" />
                             <Card.Body className="bg-grey pb-1 rounded">
                                 <Card.Title className=" h2 text-start ms-4" >Team Profile Generator</Card.Title>
                                 <strong className="d-inline-block mb-1 cardText">Node, Javascript, HTML, CSS</strong>

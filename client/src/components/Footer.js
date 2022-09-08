@@ -5,7 +5,7 @@ export default function Footer() {
   return (
 
 
-<footer className="bg-dark text-center text-white mx-3 rounded">
+<footer className="bg-dark text-center text-white mx-3 rounded mt-auto">
 <div className="container p-4 pb-0">
   <section className="mb-4 pb-4">
 
