@@ -9,7 +9,7 @@ export default function About() {
         <div className=" mt-3 pt-2 rounded container-md container-sm  mx-auto text-center justify-content-center backgroundWhite"
          >
           <div className='pt-4'>
-          <img className="rounded box-shadow-dreamy mb-2 img-fluid mx-auto coffeeImg" src={coffeeImage}
+          <img className="rounded box-shadow-dreamy mb-2 mx-auto coffeeImg" src={coffeeImage}
             alt='Me holding a coffee'></img>
           </div>
             <div className="col-md-7 pb-4 mx-auto mb-3 ">
